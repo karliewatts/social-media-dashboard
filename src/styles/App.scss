@@ -1,0 +1,36 @@
+@import './Base.scss';
+
+.App {
+  z-index: 1;
+  position: relative;
+  padding-bottom: 4rem;
+  background: var(--bg);
+  transition: all .4s ease;
+
+  &__grid {
+    max-width: 92%;
+    margin: auto;
+  }
+
+  &__accent {
+    content: '';
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: 12%;
+    background: var(--bg-accent);
+    transition: all .4s ease;
+
+    @media (min-width: $mq-sm) {
+      height: 24%;
+    }
+
+    @media (min-width: $mq-med) {
+      height: 18%;
+    }
+
+    @media (min-width: $mq-lg) {
+      height: 30%;
+    }
+  }
+}

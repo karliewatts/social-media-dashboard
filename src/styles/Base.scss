@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+/*------- media queries --------*/
+// Smallest phone
+$mq-xs: 22em;
+// Phone
+$mq-sm: 32em;
+// Tablet
+$mq-med: 54em;
+// Laptop
+$mq-lg: 72em;
+// Past laptop
+$mq-xl: 91em;
+// Mid-size monitor
+$mq-xl2: 115em;
+// Thunderbold goes to 157em
+$mq-xl3: 130em;
+
+
+/*------- Primary Colors --------*/
+$lime-green: hsl(163, 72%, 41%);
+$bright-red: hsl(356, 69%, 56%);
+
+
+/*------- Social Platform Colors --------*/
+$facebook: hsl(208, 92%, 53%);
+$twitter: hsl(203, 89%, 53%);
+$instagram: linear-gradient(to right, hsl(37, 97%, 70%), hsl(329, 70%, 58%));
+$youtube: hsl(348, 97%, 39%);
+
+
+/*------- Toggle Colors --------*/
+$toggle-dark: linear-gradient(to right, hsl(210, 78%, 56%), hsl(146, 68%, 55%));
+$toggle-light: hsl(230, 22%, 74%);
+
+
+/*------- Dark Theme Colors --------*/
+.is-dark {
+    --bg: hsl(230, 17%, 14%);
+    --bg-accent: hsl(232, 19%, 15%);
+    --card: hsl(228, 28%, 20%);
+    --card-hover: 1.2;
+    --accent-text: hsl(228, 34%, 66%);
+    --text: hsl(0, 0%, 100%);
+}
+
+
+/*------- Light Theme Colors --------*/
+.is-light {
+    --bg: hsl(0, 0%, 100%);
+    --bg-accent: hsl(225, 100%, 98%);
+    --card: hsl(227, 47%, 96%);
+    --card-hover: .95;
+    --accent-text: hsl(228, 12%, 44%);
+    --text: hsl(230, 17%, 14%);
+}
+
+
+/*------- Font Sizes --------*/
+$font-xxl: 3em;
+$font-xl: 2em;
+$font-lg: 1.5em;
+$font-med: 1em;
+$font-sm: .9em;
+$font-xs: .8em;
