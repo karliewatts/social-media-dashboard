@@ -10,7 +10,7 @@ import {ReactComponent as Down} from '../images/icon-down.svg';
 const FeatureCards = () => {
 
   return (
-  <div className="ft-cards" role="rowgroup">
+  <div className="ft-cards" role="grid">
     <FeatureCard
     socialIcon={<Facebook />}
     socialClass={`facebook`}

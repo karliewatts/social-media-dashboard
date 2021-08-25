@@ -6,7 +6,7 @@ const Header = () => {
   const { handleMode } = useContext(ModeContext);
 
   return (
-    <header className="header" role="rowheader">
+    <header className="header" role="banner">
         <div className="header__grid">
           <div className="header__title">
             <h1>Social Media Dashboard</h1>
@@ -15,7 +15,7 @@ const Header = () => {
           <div className="header__mode">
             <p>Dark Mode</p>
             <label className="switch">
-              <input type="checkbox" aria-label="switch" onClick={handleMode}/>
+              <input type="checkbox" aria-checked="false"  onClick={handleMode}/>
               <span className="slider"></span>
             </label>
           </div>
