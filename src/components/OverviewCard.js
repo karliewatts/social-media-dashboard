@@ -4,7 +4,7 @@ import '../styles/OverviewCards.scss';
 const OverviewCard = ({socialType, socialIcon, socialValue, upOrDownClass, upOrDown, socialPercent}) => {
 
   return (
-  <div className="over-card" role="grid">
+  <div className="over-card">
     <div className="over-card__top">
         <p>{socialType}</p>
         {socialIcon}

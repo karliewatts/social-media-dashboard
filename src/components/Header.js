@@ -6,7 +6,7 @@ const Header = () => {
   const { handleMode } = useContext(ModeContext);
 
   return (
-    <header className="header" role="banner">
+    <header className="header">
         <div className="header__grid">
           <div className="header__title">
             <h1>Social Media Dashboard</h1>

@@ -10,7 +10,7 @@ import {ReactComponent as Down} from '../images/icon-down.svg';
 const OverviewCards = () => {
 
   return (
-  <div className="over-cards" role="rowgroup">
+  <div className="over-cards">
       <div className="over-cards__header">
           <h3>Overview - Today</h3>
       </div>
