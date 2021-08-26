@@ -13,8 +13,10 @@ const App = () => {
         <div className="App__accent"></div>
         <div className="App__grid">
           <Header />
-          <FeatureCards />
-          <OverviewCards />
+          <main role="main">
+            <FeatureCards />
+            <OverviewCards />
+          </main>
         </div>
       </div>
     );
